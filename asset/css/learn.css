@@ -1,0 +1,115 @@
+#jdassa{
+    width: 100%;
+    height: auto;
+
+}
+body a{
+    font-size: xx-large;
+}
+.yassa{
+    width: auto;
+    height: auto;
+    text-align: justify;
+    background-color: rgb(23, 23, 145);
+    box-shadow: 2px 2px 15px black;
+}
+.yassa h1{
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+}
+footer{
+
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(38, 12, 12);
+}
+footer h2{
+    text-align: center;
+    color: red;
+}
+#lassas{
+    display: flex;
+}
+.hassa{
+    padding: 20px;
+    width: 30%;
+    height: auto;
+ font-weight: bold;
+    color: rgb(137, 95, 95);
+    margin: 0 auto;
+    box-shadow: 2px 2px 15px black;
+}
+a .fa-brands{
+    width: 10%;
+    height: auto;
+    color: wheat;
+    font-size: xx-large;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.693);
+    border-radius: 100%;
+}
+
+input{
+    width: 80%;
+    padding: 6px;
+    font-weight: bolder;
+display: block;
+border-radius: 10px;
+}
+@media screen and (max-width:500px){
+
+    #jdassa{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+.yassa{
+    width: 95%;
+    height: auto;
+    padding: 5px;
+    color: white;
+    background-color: gray;
+    margin: 5px;
+}
+
+#fassa{
+    width: 100%;
+    height: auto;
+
+}
+
+table{ 
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.kk{
+    width: 100%;
+    height: auto;
+}
+footer{
+    width: 100%;
+    height: auto;
+}
+#lassas{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+
+}
+.hassa{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    color: orange;
+}
+.hassa p{
+  text-align: justify;
+  
+}
+
+}

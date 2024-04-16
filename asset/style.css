@@ -1,0 +1,451 @@
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: mediumvioletred;
+}
+
+#chil1{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+ 
+}
+#chil1 a{
+    float: right;
+    color: rgba(0, 0, 0, 0.756);
+    font-weight: 800;
+    padding: 10px;
+}
+
+#chil1 a:hover{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: red;
+}
+
+h3{
+    border-radius: 100%;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 15px black;
+
+}
+.cli{
+    width: 8%;
+    height: 60px;
+    border-radius: 100%;
+    padding: 0px 20px;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+.btn{
+    padding: 5px 20px;
+    font-weight: 800;
+    background-color: rgba(255, 0, 0, 0.598);
+    border: none;
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: red;
+  
+}
+#chil2{
+    width: auto;
+    height: auto;
+    margin: 2px 0px;
+    background-color: mediumvioletred;
+
+}
+#hass{
+width: auto;
+height: auto;
+display: flex;
+align-items: center;
+}
+.gassa{
+    width: 50%;
+    height: auto;
+    font-weight: 800;
+}
+/* clock start */
+.container{
+    width: auto;
+    height: auto;
+    /* background-color: wheat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ /* margin: 20px auto; */
+ /* border-radius: 50%; */
+
+
+}
+.container img{
+    width: 30%;
+    height: 40vh;
+    border-radius: 50%;
+    box-shadow: 2px 2px 100px black;
+}
+.container h1{
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.container h3{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: gold;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.quotes{
+    width: auto;
+    position: absolute;
+    text-align: center;
+    bottom: 15%;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.quotes h2{
+    font-size: 20px;
+    top: 20%;
+    font-weight: 500;
+}
+
+
+
+#both1{
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: 800;
+    background-color: mediumvioletred;
+}
+#chil33{
+    padding: 5px 10px;
+    text-align: center;
+    background-color: mediumvioletred;
+}
+#fass{
+    display: flex;
+}
+.youth{
+    width: 35%;
+    height: auto;
+    margin: 9px;
+    font-weight: 800;
+    background-color: mediumvioletred;
+text-align: center;
+box-shadow: 3px 3px 15px black;
+border-radius: 9px;
+padding: 10px;
+}
+.taaaa{
+    border-radius: 5px;
+    width: 100%;
+    height: 20vh;
+}
+#chil12{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: mediumvioletred;
+}
+#boxas{
+    display: flex;
+}
+.parent{
+    width: 49%;
+    height: auto;
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+    background-color: mediumvioletred;
+    box-shadow: 3px 3px 20px black;
+border-bottom-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.parr{
+    width: 13%;
+    height: 60px;
+    border-radius: 100%;
+}
+.star{
+    color: rgba(255, 255, 0, 0.641);
+}
+#child44{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: mediumvioletred;
+
+}
+#dasssa{
+    width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 20px black;
+
+}
+
+.fa-brands{
+    margin: 26px 5px;
+    font-size: xx-large;
+    color: wheat;
+    cursor: pointer;
+}
+#hassas{
+   width: auto;
+   height: auto;
+   padding: 5px;
+   text-align: center;
+       background-color: mediumvioletred;
+ 
+}
+#gfasad{
+    display: flex;
+}
+.cli22{
+    width: 26%;
+    height: 16vh;
+    padding: 0px 200px;
+    border-radius: 100%;
+}
+.lasaas{
+    width: 50%;
+    height: 40vh;
+    padding: 40px;
+    margin: 5px;
+    border-radius: 100%;
+    text-align: center;
+  display: inline-block;
+    box-shadow: 3px 3px 20px black;
+}
+#kasssa{
+    text-align: center;
+background-color: mediumvioletred;
+    padding: 10px;
+
+}
+#tbl{
+    width: 100%;
+    height: auto;
+}
+
+.foods{
+    width: 100%;
+    height: 30vh;
+ box-shadow: 3px 3px 20px black;
+
+}
+footer{
+    text-align: center;
+    background-color: mediumvioletred;
+padding: 10px
+
+}
+#rassa{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.ilil{
+    font-weight: 800;
+    height: auto;
+    text-align: justify;
+}
+.ilil p input{
+    border: none;
+    padding: 7px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+display: block;
+}
+.ilil p input:hover{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: red;
+
+}
+
+@media screen and (max-width:500px){
+    header{
+        width: 100%;
+     background-color: mediumvioletred;
+    }
+     #chil1 {
+        width: 100%;
+       flex-wrap: wrap;
+       color: white;
+       text-transform: uppercase;
+    }
+    #chil1 a{
+        color: white;
+        font-size: 10px;
+    }
+    .gyys{
+        width: 98%;
+        height: auto;
+    }
+  .cli{
+    width: 15%;
+    height: 6vh;
+    border-radius: 100%;
+    }
+   .both{
+text-align: center;
+text-align: justify;
+
+   }
+
+
+
+   /* clock start */
+   .container{
+    width: 100%;
+    height: auto;
+    /* background-color: wheat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+ /* margin: 20px auto; */
+ /* border-radius: 50%; */
+}
+.container img{
+    width: 100%;
+    height: 40vh;
+    margin: 10px 0px;
+    border-radius: 10%;
+    box-shadow: 2px 2px 100px black;
+}
+.container h1{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+
+
+
+    #hass{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .gassa{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 0px 0px;
+    }
+ #chil33{
+    width: auto;
+    height: auto;
+ }
+ #fass{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+ }
+ .youth{
+    width: 35%;
+    height: auto;
+ }
+ #boxas{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+ }
+ .parent{
+    width: 90%;
+    height: auto;
+ }
+
+ #child44{
+    width: 100%;
+    height: auto;
+ }
+ .parr{
+    width: 25%;
+    height: 10vh;
+    border-radius: 100%;
+ }
+ p{
+    color: white;
+ }
+
+
+ #dasssa{
+    width: 100%;
+    height: auto;
+    
+}
+
+#gfasad{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+
+}
+h4{
+    color: white;
+}
+.cli22{
+    width: 40%;
+    padding: 20px 50px;
+}
+.lasaas{
+    width: 75%;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+
+.foods{
+    width:100%;
+    height: 10vh;
+}
+#rassa{
+    width: 100%;
+    height: auto;
+}
+.ilil{
+    width: 50%;
+    height: auto;
+}
+input{
+    width: 80%;
+}
+}

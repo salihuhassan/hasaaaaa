@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+    <link rel="stylesheet" href="asset/css/clock.css">
+</head>
+<body>
+    <header>
+        <h2>children.web</h2>
+        <div id="chil1">
+            <img src="asset/image/chl.jpeg" class="cli">
+            <div class="losd">
+                <a href="learn.html">home</a>
+                <a href="nav.html">play</a>
+                <a href="index.html">check up</a>
+                <a href="clock.html">contact</a>
+            </div>
+            <button class="btn">play here</button>
+        </div>
+    </header>
+
+    
+   <!-- <div class="clock">
+        <div class="number" style="--n:1"><b>1</b></div>
+        <div class="number" style="--n:2"><b>2</b></div>
+        <div class="number" style="--n:3"><b>3</b></div>
+        <div class="number" style="--n:4"><b>4</b></div>
+        <div class="number" style="--n:5"><b>5</b></div>
+        <div class="number" style="--n:6"><b>6</b></div>
+        <div class="number" style="--n:7"><b>7</b></div>
+        <div class="number" style="--n:8"><b>8</b></div>
+        <div class="number" style="--n:9"><b>9</b></div>
+        <div class="number" style="--n:10"><b>10</b></div>
+        <div class="number" style="--n:11"><b>11</b></div>
+        <div class="number" style="--n:12"><b>12</b></div>
+        <div class="hourhand"   id="hour-hand"></div>
+        <div class="minutehand" id="minute-hand"></div>
+        <div class="secondhand" id="second-hand"></div>
+        <div class="centerdot"></div>
+         </div>     -->
+<!--<div class="clock">
+
+    <div class="needle" style="--h:60px;
+    --clr:red"><span></span></div>
+
+    <div class="needle" style="--h:60px;
+    --clr:blue"><span></span></div>
+
+    <div class="needle" style="--h:60px;
+    --clr:white"><span></span></div>
+
+
+<ul>
+    <li  style="--i:1"><span>1</span></li>
+    <li  style="--i:2"><span>2</span></li>
+    <li  style="--i:3"><span>3</span></li>
+    <li style="--i:4"><span>4</span></li>
+    <li style="--i:5"><span>5</span></li>
+    <li style="--i:6"><span>6</span></li>
+    <li style="--i:7"><span>7</span></li>
+    <li style="--i:8"><span>8</span></li>
+    <li style="--i:9"><span>9</span></li>
+    <li style="--i:10"><span>10</span></li>
+    <li style="--i:11"><span>11</span></li>
+    <li style="--i:12"><span>12</span></li>
+</ul>
+
+</div> -->
+ <div class="container">
+    <img src="asset/image/chlf.jpg" alt="">
+
+    <h1 id="current-time"></h1>
+    <br>
+    <h3 id="current-date"></h3>
+
+    <div class="quotes">
+<p>today's quotes</p>
+<h2>lost time is never found again.</h2>
+</div>
+</div>
+
+
+ <script>
+
+    let time = document.getElementById("current-time");
+
+    let date = document.getElementById("current-date")
+
+    setInterval(() =>{
+        let d = new Date();
+time.innerHTML = d.toLocaleTimeString();
+     
+    },1000)
+
+    setInterval(() =>{
+        let d = new Date();
+date.innerHTML = d.toLocaleDateString();
+     
+    },1000)
+
+
+</script>  
+
+<script>
+ const secondhand  = document.getElementById("second-hand");
+const minutehand = document.getElementById("minute-hand");
+const hourhand    = document.getElementById("hour-hand");
+
+function clocktick(){
+    const date = new Date();
+   const seconds = date.getSeconds() / 60;
+    const minutes = (seconds + date.getMinutes()) /60;
+    const hours  = (minutes + date.getHours()) /12;
+
+   rotateClockHand(secondhand, seconds);
+   rotateClockHand(minutehand, minutes);
+   rotateClockHand(hourhand, hours);
+
+}
+
+function rotateClockHand(element, rotation){
+Element.style.setProperty('--rotate', rotation * 360);
+
+}
+setInterval(clocktick, 1000)
+</script>
+</body>
+ </html>

@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+   text-transform: uppercase;
+   text-decoration: dashed;
+}
+body{
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+
+    box-shadow: 0 0 0px green;
+    background-color:whitesmoke;
+}
+
+header ul{
+    list-style-type: none;
+}
+#chk1{
+    display: none;
+}
+i{
+    color: rgb(11, 219, 11);
+    cursor: pointer;
+}
+header .seach-box{
+    flex: 1;
+    position: relative;
+}
+h5{
+    color: red;
+}
+.seach-box input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: whitesmoke;
+    border-radius: 30px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 40px;
+    box-shadow: 3px 3px 20px black;
+
+}
+.seach-box button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(0.9);
+    background: green;
+
+}
+form{
+    width: 40%;
+    height: auto;
+}
+header ul{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header ul li a{
+text-decoration: none;
+color: wheat;
+font-weight: 600;
+text-transform: uppercase;
+padding: 10px 15px;
+
+}
+header ul li a:hover{
+ border-bottom: 2px solid rgb(11, 172, 11);
+}
+header .menu{
+    font-size: 2.5rem;
+ display: none;
+}
+a .fa-brands{
+    padding: 0 10px;
+    color: green;
+    font-size: xx-large;
+}
+
+#kassa{
+    width: 100%;
+    height: 100vh;
+  justify-items: center;
+   background-image: url(../asset/image/clsr.jpg);
+   background-size: cover;
+}
+
+#kassas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 120px 100px;
+
+}
+
+.looos{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    margin: 5px;
+    text-align: justify;
+    background:rgb(77, 129, 24);
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 10px;
+   
+}
+
+.loosa{
+ width: 50%;
+ height: auto;
+ padding: 20px;
+ margin: 5px;
+ color: navy;
+ border-radius: 10px;
+ background-color: rgba(255, 255, 255, 0.10);
+}
+input{
+    border: none;
+    width: 100%;
+padding: 10px;
+border-radius: 10px;
+display: block;
+font-weight:800;
+box-shadow: 2px 2px 10px black;
+}
+
+form{
+    width: 100%;
+}
+
+button{
+    border: none;
+    padding: 10px;
+   border-radius: 10px;
+    font-weight: 800;
+    color: red;
+}
+h4{
+    color: rgba(255, 0, 0, 0.637);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+h1{
+    color: red;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.ggg{
+   width: 45%;
+    height: 15vh;
+    padding: 2px;
+    border-radius: 100px;
+    margin: 0 50px;
+}
+#dsasassa{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 2px auto;
+padding: 20px;
+text-align: justify;
+    background-color: rgba(56, 5, 5, 0.867);
+}
+#dsasassa h4{
+    text-align: center;
+}
+
+#boxy{
+    background-color: rgba(56, 5, 5, 0.864);
+    width: 100%;
+    height: auto;
+}
+#bod{
+ padding: 5px;
+}
+.jact2f{
+    float: left;
+    width: 49%;
+    text-align: justify;
+    padding: 5px;
+    height: 25vh;
+    box-shadow: 2px 2px 10px black;
+
+}.jact2f h1{
+    text-align: center;
+}
+
+.jact{
+    float: right;
+    width: 49%;
+  
+    height: auto;
+    color: white;
+    box-shadow: 2px 2px 10px black;
+}
+.hact{
+    float: right;
+    width:48%;
+    height: 20vh;
+    box-shadow: 2px 2px 10px black;
+
+}
+.hact2{
+    float: left;
+    width: 48%;
+    height: 20vh;
+    box-shadow: 2px 2px 10px black;
+  
+}
+  td{
+    border-color: rgb(78, 36, 36);
+    float: right;
+    height: auto;
+    padding: 5px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 10px black;
+  color: beige;
+}
+table{
+    box-shadow: 2px 2px 10px black;
+    border: black;
+}
+@media screen and (max-width:500px){
+
+    header{
+        width: 100%;
+        height: auto;
+        position: relative;
+        flex-direction: column;
+
+    }
+    header a .fa-brands{
+ display: inline-block;
+    }
+
+    header ul li a{
+        text-decoration: none;
+        color: orange;
+        font-weight: 200;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding:  3px;
+        }
+        a .fa-brands{
+            margin: 0 10px;
+            color: orange;
+            font-size: 15px;
+            padding: 10px;
+        }
+        form{
+            width: 95%;
+            height: auto;
+            margin: 10px 5px;
+
+        }
+        
+      
+ .seach-box input{
+    /* width: 100%; */
+    height: auto;
+ }
+
+ .seach-box button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    transform: scale(0.9);
+    background: green;
+
+}
+
+.ggg{
+    width: 20;
+    height: 10vh;
+    border-radius: 50%;
+}
+
+    #kassa{
+        width: 100%;
+        height: auto;
+    }
+
+#kassas{
+    width: 100%;
+height: auto;
+flex-direction: column;
+    padding: 0px 0px;
+
+}
+.bassa{
+   flex-wrap: wrap;
+}
+
+
+.looos{
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.loosa{
+    width: 100%;
+    height: auto;
+    color: orange;
+}
+
+#dsasassa{
+    color: white;
+}
+
+
+
+#boxy{
+    width: 100%;
+    height: auto;
+
+}
+#bod{
+    flex-direction: column;
+}
+.jact2f{
+    width: 100%;
+    height: auto;
+}
+
+.jact{
+    width: 100%;
+    height: auto;
+}
+.hact2{
+    padding: 4px;
+}
+}
